@@ -1,0 +1,11 @@
+dependencies:
+  idf: '>=4.1'
+description: A collection of useful cmake utilities
+documentation: https://docs.espressif.com/projects/esp-iot-solution/zh_CN/latest/basic/cmake_utilities.html
+issues: https://github.com/espressif/esp-iot-solution/issues
+repository: git://github.com/espressif/esp-iot-solution.git
+repository_info:
+  commit_sha: 4730d91db70df7e6e0a3191d725ab1c5f98ff9ce
+  path: tools/cmake_utilities
+url: https://github.com/espressif/esp-iot-solution/tree/master/tools/cmake_utilities
+version: 1.0.0

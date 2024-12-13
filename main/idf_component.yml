@@ -15,4 +15,3 @@ dependencies:
   #   # All dependencies of `main` are public by default.
   #   public: true
   espressif/cmake_utilities: ^1.0.0
-  espressif/arduino-esp32: ^3.0.7

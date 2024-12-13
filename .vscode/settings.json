@@ -1,9 +1,13 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
-  "idf.espIdfPath": "/home/zdw/.opt/esp-idf",
+  "idf.espIdfPath": "/Users/zdw/Library/esp-idf",
   "idf.openOcdConfigs": [
-    "board/esp32-wrover-kit-3.3v.cfg"
+    "board/esp32s3-builtin.cfg"
   ],
   "idf.port": "/dev/ttyS4",
-  "idf.toolsPath": "/home/zdw/.espressif"
+  "idf.toolsPath": "/Users/zdw/.espressif",
+  "files.associations": {
+    "esp_log.h": "c"
+  },
+  "idf.adapterTargetName": "esp32s3"
 }

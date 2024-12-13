@@ -6,3 +6,19 @@ cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(cpre558)
+
+# Add required components
+idf_build_set_property(COMPONENTS 
+    "bt" 
+    "nvs_flash" 
+    "driver" 
+    "esp_common" 
+    "esp_event" 
+    "esp_ble" 
+    APPEND)
+
+idf_component_register(
+    SRCS "main.c"
+    INCLUDE_DIRS "."
+    REQUIRES freertos
+)
